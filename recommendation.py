@@ -18,7 +18,7 @@ def topn_recommendations(user_num, item_df, user_item_df, user_pred_df, n=10):
     user_preds.index += 1 # item index 1부터 시작하도록 조정
 
     # user history
-    user_history = user_item_df[user_item_df['UserID'] == user_num].dropna()
+    user_history = user_item_df.loc[user_num].dropna()
 
     # recommend movies that are not in user history
     user_recommendations = user_preds[~user_preds.isin(user_history)].sort_values(ascending=False)

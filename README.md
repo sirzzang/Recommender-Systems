@@ -1,6 +1,4 @@
-# Recommender System
-
-<br>
+# Recommender System Practice
 
 * dataset: [MovieLens 1M Dataset](https://grouplens.org/datasets/movielens/1m/)
 

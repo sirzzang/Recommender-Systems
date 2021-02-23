@@ -27,5 +27,6 @@ reconstructed_matrix = svd(matrix, ratio=0.9)
 # top N recommendations
 user_idx = np.random.randint(1, user_item_matrix.index.max())
 user_profile = users[users['UserID'] == user_idx]
+print('user 정보\n', user_profile)
 recommendations = topn_recommendations(user_idx, movies, user_item_matrix, reconstructed_matrix, n=10)
 print(recommendations)
