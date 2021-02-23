@@ -1,5 +1,7 @@
-# 데이터 폴더
+# 폴더
 /data
+/__pycache__
+/.idea
 
 # Created by https://www.toptal.com/developers/gitignore/api/jupyternotebooks,pycharm
 # Edit at https://www.toptal.com/developers/gitignore?templates=jupyternotebooks,pycharm
